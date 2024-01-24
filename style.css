@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap");
+
+body {
+  font-family: "Outfit";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: hsl(30, 10%, 34%);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.brown {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+  height: fit-content;
+}
+
+.container-inside {
+  padding: 0 2rem;
+}
+
+.subtitle {
+  font-family: "Young serif";
+  font-weight: normal;
+  font-size: 29px;
+  color: hsl(14, 45%, 36%);
+  margin: 1.5rem 0;
+}
+
+.main-title {
+  padding: 2rem 0;
+  font-size: 40px;
+  font-family: "Young serif";
+  font-weight: normal;
+  line-height: 1.1;
+  color: #000;
+}
+
+.first-p {
+  margin-bottom: 2rem;
+  line-height: 1.7;
+}
+
+/* pink box */
+.pink-box {
+  background-color: hsl(330, 100%, 98%);
+  max-height: fit-content;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+}
+
+.pink-box div {
+  color: hsl(332, 51%, 32%);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.pink-box ul {
+  margin: 0 40px;
+  line-height: 2;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* Ingredients */
+.ingredients {
+  margin: 2rem 0;
+}
+
+.ingredients ul {
+  line-height: 2;
+  padding: 0 1.5rem;
+}
+
+/* Instruction */
+.instruction ol {
+  padding: 0 1.5rem;
+}
+
+.instruction ol li,
+.ingredients ul li {
+  padding: 0 0 0 1rem;
+}
+
+.instruction ol li {
+  margin: 1rem 0;
+  line-height: 1.5;
+}
+
+hr {
+  margin: 2rem 0;
+}
+
+/* Nutrition */
+.nutrition p {
+  margin-bottom: 2rem;
+}
+
+.table-row {
+  display: flex;
+  padding: 1rem 2rem;
+  align-items: center;
+  border-bottom: 1px solid rgb(226, 225, 225);
+  text-align: left;
+}
+
+.table-row .name {
+  flex-basis: 50%;
+}
+
+.table-row .brown {
+  flex-basis: 50%;
+}
+
+.table-row:nth-child(4) {
+  border: none;
+}
+
+/* Media Query */
+@media (min-width: 600px) {
+  body {
+    background-color: hsl(30, 54%, 90%);
+    padding: 5rem 0;
+  }
+
+  .container {
+    padding: 1.5rem;
+    border-radius: 20px;
+  }
+}
